@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#search {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+.product-list {
+    list-style: none;
+}
+.product-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: 10px;
+    justify-content: center;
+}
+.product-list img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px ;
+}
